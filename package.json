@@ -1,0 +1,18 @@
+{
+	"name": "WorkerThreads",
+	"version": "1.0.0",
+	"description": "learn nodejs worker_threads",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier . --write"
+	},
+	"keywords": [
+		"worker-threads-testing"
+	],
+	"author": "Hanif Dwy Putra S <hanifdwyputrasembiring@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
