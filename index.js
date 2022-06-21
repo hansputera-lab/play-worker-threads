@@ -114,7 +114,7 @@ export class WorkerPool {
 		return await new Promise(async (resolve, reject) => {
 			let worker = this.#findAWorker();
 
-			if (worker.queues.length >= 150) {
+			if (worker.queues.length >= this.options.maxJobsPerWorker) {
 				worker = await this.createWorker();
 			}
 
